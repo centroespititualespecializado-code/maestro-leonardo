@@ -1,7 +1,7 @@
 export default function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/573249704916?text=Hola%20Maestro%20Leonardo,%20me%20gustar%C3%ADa%20agendar%20una%20consulta%20espiritual.%20%C2%BFPodr%C3%ADas%20indicarme%20los%20horarios%20disponibles%3F"
+      href="https://wa.me/525537309348?text=Hola%20Maestro%20Leonardo,%20me%20gustar%C3%ADa%20agendar%20una%20consulta%20espiritual."
       className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors z-50"
       target="_blank"
       rel="noopener noreferrer"

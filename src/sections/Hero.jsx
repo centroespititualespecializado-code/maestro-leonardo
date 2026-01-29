@@ -43,7 +43,7 @@ export default function Hero() {
 
         {/* Botón */}
         <a
-          href="https://wa.me/573249704916?text=Hola%20Maestro%20Leonardo,%20me%20gustar%C3%ADa%20agendar%20una%20consulta%20espiritual.%20%C2%BFPodr%C3%ADas%20indicarme%20los%20horarios%20disponibles%3F"
+          href="https://wa.me/525537309348?text=Hola%20Maestro%20Leonardo,%20me%20gustar%C3%ADa%20agendar%20una%20consulta%20espiritual."
           className="bg-gold text-black px-8 py-4 rounded-full font-semibold
                      hover:scale-105 transition-transform duration-300 shadow-lg"
         >
