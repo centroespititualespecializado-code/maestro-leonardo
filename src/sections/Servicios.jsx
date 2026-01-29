@@ -1,9 +1,12 @@
+import orientacionImg from "../assets/images/orientacion-espiritual.jpg";
+import armonizacionImg from "../assets/images/armonizacion-energetica.webp";
+import lecturasImg from "../assets/images/lecturas-personalizadas.jpg";
 
 export default function Servicios(){
   const servicios = [
-    { titulo: "Orientación espiritual", desc: "Guía personalizada para encontrar paz interior, claridad mental y dirección espiritual. Utilizo prácticas ancestrales, rituales simbólicos y conexión con la energía natural para ayudarte a equilibrar tu ser interior y armonizar tu vida cotidiana.", img: "/src/assets/images/orientacion-espiritual.jpg" },
-    { titulo: "Armonización energética", desc: "Proceso para liberar cargas emocionales, tensiones y bloqueos energéticos que afectan tu bienestar. Mediante rituales simbólicos, intención consciente y técnicas de sanación, restaura el equilibrio emocional y físico, promoviendo paz, claridad y estabilidad en tu vida.", img: "/src/assets/images/armonizacion-energetica.webp" },
-    { titulo: "Lecturas personalizadas", desc: "Sesiones individuales de interpretación espiritual profunda, utilizando tarot, runas o métodos tradicionales. Ofrece claridad sobre situaciones personales, decisiones importantes y procesos emocionales, guiándote hacia el autoconocimiento y el fortalecimiento de tu camino espiritual.", img: "/src/assets/images/lecturas-personalizadas.jpg" }
+    { titulo: "Orientación espiritual", desc: "Guía personalizada para encontrar paz interior, claridad mental y dirección espiritual. Utilizo prácticas ancestrales, rituales simbólicos y conexión con la energía natural para ayudarte a equilibrar tu ser interior y armonizar tu vida cotidiana.", img: orientacionImg },
+    { titulo: "Armonización energética", desc: "Proceso para liberar cargas emocionales, tensiones y bloqueos energéticos que afectan tu bienestar. Mediante rituales simbólicos, intención consciente y técnicas de sanación, restaura el equilibrio emocional y físico, promoviendo paz, claridad y estabilidad en tu vida.", img: armonizacionImg },
+    { titulo: "Lecturas personalizadas", desc: "Sesiones individuales de interpretación espiritual profunda, utilizando tarot, runas o métodos tradicionales. Ofrece claridad sobre situaciones personales, decisiones importantes y procesos emocionales, guiándote hacia el autoconocimiento y el fortalecimiento de tu camino espiritual.", img: lecturasImg }
   ]
 
   return (

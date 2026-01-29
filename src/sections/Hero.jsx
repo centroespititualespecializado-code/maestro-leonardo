@@ -1,3 +1,5 @@
+import heroImg from "../assets/images/hero.jpg";
+
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-black to-dark text-center px-6 relative overflow-hidden">
@@ -5,7 +7,7 @@ export default function Hero() {
       {/* Fondo */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-25"
-        style={{ backgroundImage: "url('/src/assets/images/hero.jpg')" }}
+        style={{ backgroundImage: `url(${heroImg})` }}
       />
 
       {/* Contenido */}

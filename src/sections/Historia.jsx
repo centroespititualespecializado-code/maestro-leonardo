@@ -1,3 +1,5 @@
+import maestroImg from "../assets/images/maestro-leonardo.jpg";
+
 export default function Historia() {
   return (
     <section className="py-20 px-6 bg-dark">
@@ -26,7 +28,7 @@ export default function Historia() {
         {/* Imagen */}
         <div className="flex justify-center">
           <img
-            src="/src/assets/images/maestro-leonardo.jpg"
+            src={maestroImg}
             alt="Historia del Maestro Leonardo"
             className="w-full max-w-md rounded-2xl shadow-2xl"
           />

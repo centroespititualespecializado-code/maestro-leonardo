@@ -1,3 +1,4 @@
+import ritualImg from "../assets/images/ritual.webp";
 
 export default function Ritual(){
   return (
@@ -5,7 +6,7 @@ export default function Ritual(){
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         <div className="flex justify-center">
           <img
-            src="/src/assets/images/ritual.webp"
+            src={ritualImg}
             alt="Metodología Espiritual"
             className="w-full max-w-md rounded-lg shadow-lg"
           />
